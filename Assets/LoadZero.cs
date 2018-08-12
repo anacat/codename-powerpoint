@@ -7,6 +7,7 @@ public class LoadZero : MonoBehaviour
 {
 	private void Awake()
 	{
+		Cursor.visible = false;
 		SceneManager.LoadScene(1);
 	}
 }

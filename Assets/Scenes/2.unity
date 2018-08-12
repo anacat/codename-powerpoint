@@ -421,6 +421,7 @@ MonoBehaviour:
   badSceneToLoad: 0
   badSceneToLoad2: 0
   badSceneToLoad3: 0
+  previousLevel: 0
 --- !u!114 &27163788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3998,13 +3999,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 43
-    m_Alignment: 3
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[USE SPACE KEYS]'
+  m_Text: '[USE THE SPACE KEY]'
 --- !u!222 &1502489394
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -95,8 +95,6 @@ public class PlayerMovement : MonoBehaviour
 		{
 			CheckIfReachedGoal();			
 		}
-
-		_canMove = true;
 	}
 
 	public static void LoadPreviousLevel()
@@ -131,6 +129,10 @@ public class PlayerMovement : MonoBehaviour
 				audioController.PlayLevelUp();
 				loadScene.StartBadTransition(3);
 			}
+		}
+		else 
+		{		
+			_canMove = true;
 		}
 	}
 }

@@ -421,6 +421,7 @@ MonoBehaviour:
   badSceneToLoad: 0
   badSceneToLoad2: 0
   badSceneToLoad3: 0
+  previousLevel: 0
 --- !u!114 &27163788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,7 +1326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 151.00002, y: 0}
+  m_AnchoredPosition: {x: 151, y: 0}
   m_SizeDelta: {x: 234.8, y: 396.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199603386
@@ -1385,13 +1386,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 43
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[CATARINA LOPES | PROGRAMMING, GAME DESIGN]'
+  m_Text: "[CATARINA LOPES]\n[PROGRAMMING] \n[GAME DESIGN]"
 --- !u!222 &199603389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2999,13 +3000,13 @@ RectTransform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 911655342}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 799438016}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 87, y: -59}

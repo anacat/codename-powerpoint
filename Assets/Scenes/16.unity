@@ -2316,7 +2316,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WHATEVER I DO, EVERYTHING IS A LOOP
+  m_Text: 'WHATEVER I DO, EVERYTHING IS
+
+    A LOOP'
 --- !u!222 &273939747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12711,8 +12713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 87, y: -59}
-  m_SizeDelta: {x: 174, y: 118}
+  m_AnchoredPosition: {x: -69.9, y: 32.5}
+  m_SizeDelta: {x: 487.7, y: 301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811555583
 MonoBehaviour:

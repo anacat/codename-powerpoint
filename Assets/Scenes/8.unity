@@ -787,6 +787,7 @@ MonoBehaviour:
   badSceneToLoad: 0
   badSceneToLoad2: 0
   badSceneToLoad3: 0
+  previousLevel: 0
 --- !u!114 &27163788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4133,8 +4134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8b7c8c8b233bc4c97a1881a68ca1ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a: {r: 0.97972727, g: 1, b: 0, a: 1}
-  b: {r: 0.5660378, g: 0.024072185, b: 0.008009953, a: 1}
+  a: {r: 0.7877358, g: 1, b: 0.9938284, a: 1}
+  b: {r: 0.05606468, g: 0, b: 0.3018868, a: 1}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -9380,8 +9381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 87, y: -59}
-  m_SizeDelta: {x: 174, y: 118}
+  m_AnchoredPosition: {x: -595, y: -339}
+  m_SizeDelta: {x: 1286.2, y: 766.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213258667
 MonoBehaviour:
@@ -14839,7 +14840,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MAYBE I WAS BORN HERE
+  m_Text: 'MAYBE I WAS
+
+    BORN HERE'
 --- !u!222 &1931304224
 CanvasRenderer:
   m_ObjectHideFlags: 0
